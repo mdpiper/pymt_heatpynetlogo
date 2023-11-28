@@ -4,8 +4,11 @@ import sys
 
 from setuptools import Extension, find_packages, setup
 
-entry_points = {"pymt.plugins": []}
-
+entry_points = {
+    "pymt.plugins": [
+        "HeatDiffusion=pymt_pynetlogo.bmi:HeatDiffusion",
+    ]
+}
 
 def read(filename):
     with open(filename, "r", encoding="utf-8") as fp:
