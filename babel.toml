@@ -5,7 +5,6 @@ library = "heat"
 header = ""
 entry_point = "BmiHeatDiffusion"
 
-
 [build]
 undef_macros = []
 define_macros = []
@@ -16,7 +15,16 @@ extra_compile_args = []
 
 [package]
 name = "pymt_pynetlogo"
-requirements = []
+requirements = [
+  "bmipy",
+  "pyyaml",
+  "numpy",
+  "scipy",
+  "pandas",
+  "jpype1",
+  "pynetlogo",
+  "bmi-example-pynetlogo",
+]
 
 [info]
 github_username = "pymt-lab"
@@ -28,4 +36,3 @@ summary = "PyMT plugin for bmi-example-pynetlogo"
 [ci]
 python_version = ["3.11"]
 os = ["linux"]
-

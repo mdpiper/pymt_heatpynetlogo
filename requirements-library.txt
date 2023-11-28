@@ -1,2 +1,8 @@
-
-
+bmi-example-pynetlogo
+bmipy
+jpype1
+numpy
+pandas
+pynetlogo
+pyyaml
+scipy
