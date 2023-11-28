@@ -1,0 +1,17 @@
+netlogo_home:
+  description: NetLogo install path
+  value:
+    type: string
+    default: "/opt/netlogo-6.1.1"
+    units: 1
+model_name:
+  description: File with NetLogo model
+  value:
+    type: string
+    default: "HeatDiffusion.nlogo"
+    units: 1
+bmi_version:
+  value:
+    type: string
+    default: "2.0"
+    units: 1

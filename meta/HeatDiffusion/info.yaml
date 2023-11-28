@@ -1,0 +1,7 @@
+summary: |
+  An example of running a NetLogo model through pymt.
+url: https://github.com/csdms/bmi-example-pynetlogo
+author: Mark Piper
+email: mark.piper@colorado.edu
+version: 0.1
+license: MIT

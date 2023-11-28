@@ -1,0 +1,4 @@
+HeatDiffusion:
+  netlogo_home: {{dem_type}}
+  model_name: {{model_name}}
+  bmi_version: {{bmi_version}}
