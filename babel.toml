@@ -1,0 +1,31 @@
+[library]
+[library.HeatDiffusion]
+language = "python"
+library = "heat"
+header = ""
+entry_point = "BmiHeatDiffusion"
+
+
+[build]
+undef_macros = []
+define_macros = []
+libraries = []
+library_dirs = []
+include_dirs = []
+extra_compile_args = []
+
+[package]
+name = "pymt_pynetlogo"
+requirements = []
+
+[info]
+github_username = "pymt-lab"
+package_author = "CSDMS"
+package_author_email = "csdms@colorado.edu"
+package_license = "MIT License"
+summary = "PyMT plugin for bmi-example-pynetlogo"
+
+[ci]
+python_version = ["3.11"]
+os = ["linux"]
+
