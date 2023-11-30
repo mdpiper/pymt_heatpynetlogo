@@ -43,7 +43,7 @@ jobs:
       - name: Install bmi-example-pynetlogo dependency
         run: |
           pushd ./external/bmi-example-pynetlogo
-          make install
+          pip install -e .
           popd
 
       - name: Install requirements
