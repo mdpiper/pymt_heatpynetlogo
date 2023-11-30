@@ -60,7 +60,7 @@ jobs:
 
       - name: Test
         run: |
-          python -c 'import pymt_pynetlogo'
+          python -c 'import pymt_heatpynetlogo'
           python -c 'from pymt.models import HeatDiffusion'
 
       - name: Run examples

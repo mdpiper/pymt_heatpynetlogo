@@ -1,4 +1,4 @@
-name: pymt_pynetlogo
+name: pymt_heatpynetlogo
 language: python
-package: pymt_pynetlogo
+package: pymt_heatpynetlogo
 class: HeatDiffusion

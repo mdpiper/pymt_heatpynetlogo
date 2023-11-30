@@ -14,7 +14,7 @@ include_dirs = []
 extra_compile_args = []
 
 [package]
-name = "pymt_pynetlogo"
+name = "pymt_heatpynetlogo"
 requirements = [
   "bmipy",
   "pyyaml",

@@ -6,7 +6,7 @@ from setuptools import Extension, find_packages, setup
 
 entry_points = {
     "pymt.plugins": [
-        "HeatDiffusion=pymt_pynetlogo.bmi:HeatDiffusion",
+        "HeatDiffusion=pymt_heatpynetlogo.bmi:HeatDiffusion",
     ]
 }
 
@@ -21,13 +21,13 @@ long_description = "\n\n".join(
 
 
 setup(
-    name="pymt_pynetlogo",
+    name="pymt_heatpynetlogo",
     author="CSDMS",
     author_email="csdms@colorado.edu",
-    description="PyMT plugin for pymt_pynetlogo",
+    description="PyMT plugin for pymt_heatpynetlogo",
     long_description=long_description,
     version="0.1",
-    url="https://github.com/pymt-lab/pymt_pynetlogo",
+    url="https://github.com/pymt-lab/pymt_heatpynetlogo",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",

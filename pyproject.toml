@@ -3,7 +3,7 @@ requires = ["cython", "numpy", "setuptools", "wheel"]
 
 [tool.pytest.ini_options]
 minversion = "5.0"
-testpaths = ["pymt_pynetlogo", "tests"]
+testpaths = ["pymt_heatpynetlogo", "tests"]
 norecursedirs = [".*", "*.egg*", "build", "dist"]
 addopts = """
     --ignore setup.py
@@ -28,6 +28,6 @@ line_length = 88
 
 [tool.check-manifest]
 ignore = [
-  "pymt_pynetlogo/data",
-  "pymt_pynetlogo/data/**/*",
+  "pymt_heatpynetlogo/data",
+  "pymt_heatpynetlogo/data/**/*",
 ]

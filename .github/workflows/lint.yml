@@ -20,4 +20,4 @@ jobs:
       - name: Lint
         run: |
           pip install flake8
-          flake8 pymt_pynetlogo examples
+          flake8 pymt_heatpynetlogo examples
