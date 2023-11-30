@@ -48,7 +48,7 @@ jobs:
 
       - name: Install requirements
         run: |
-          pip install --file=requirements-build.txt --file=requirements-library.txt
+          pip install -r requirements-build.txt -r requirements-library.txt
 
       - name: Build and install package
         run: |
