@@ -23,34 +23,45 @@ jobs:
         python-version: [3.11]
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Install NetLogo
+        run: |
+          curl https://ccl.northwestern.edu/netlogo/6.1.1/NetLogo-6.1.1-64.tgz --output NetLogo-6.1.1-64.tgz
+          tar xf NetLogo-6.1.1-64.tgz
+          mv NetLogo\ 6.1.1 /opt/netlogo-6.1.1
 
-      - uses: conda-incubator/setup-miniconda@v2
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - uses: conda-incubator/setup-miniconda@v3
         with:
           auto-update-conda: true
           python-version: ${{ matrix.python-version }}
           channels: conda-forge
           channel-priority: true
 
-      - name: Show conda installation info
-        run: |
-          conda info
-          conda list
-
       - name: Install requirements
         run: |
-          conda install mamba
-          mamba install --file=requirements-build.txt --file=requirements-library.txt
-          mamba list
+          conda install -c conda-forge pymt --file=requirements-build.txt --file=requirements-library.txt
+
+      - name: Install bmi-example-pynetlogo dependency
+        run: |
+          pushd ./external/bmi-example-pynetlogo
+          make install
+          popd
 
       - name: Build and install package
         run: |
           pip install -e .
 
-      - name: Install testing dependencies
-        run: mamba install --file=requirements-testing.txt
-
       - name: Test
         run: |
           python -c 'import pymt_pynetlogo'
+          python -c 'from pymt.models import HeatDiffusion'
 
+      - name: Run examples
+        working-directory: ${{ github.workspace }}/examples
+        run: |
+          python heatc_ex.py
+          python pymt_heatc_ex.py
+  
