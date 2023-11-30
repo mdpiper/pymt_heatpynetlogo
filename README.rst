@@ -14,14 +14,14 @@ pymt_heatpynetlogo
         :target: https://pymt-pynetlogo.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/test.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/test.yml
+.. image:: https://github.com/mdpiper/pymt_heatpynetlogo/actions/workflows/test.yml/badge.svg
+        :target: https://github.com/mdpiper/pymt_heatpynetlogo/actions/workflows/test.yml
 
-.. image:: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/flake8.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/flake8.yml
+.. image:: https://github.com/mdpiper/pymt_heatpynetlogo/actions/workflows/lint.yml/badge.svg
+        :target: https://github.com/mdpiper/pymt_heatpynetlogo/actions/workflows/lint.yml
 
-.. image:: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/black.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/black.yml
+.. image:: https://github.com/mdpiper/pymt_heatpynetlogo/actions/workflows/format.yml/badge.svg
+        :target: https://github.com/mdpiper/pymt_heatpynetlogo/actions/workflows/format.yml
 
 
 PyMT plugin for bmi-example-pynetlogo
