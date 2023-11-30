@@ -1,15 +1,15 @@
-recursive-include pymt_pynetlogo/data *
+recursive-include pymt_heatpynetlogo/data *
 include LICENSE
 include requirements.txt
 include *.rst
 include *.txt
 include Makefile
 include babel.toml
-recursive-include pymt_pynetlogo *.pyx
+recursive-include pymt_heatpynetlogo *.pyx
 recursive-include docs *.py
 recursive-include docs *.rst
 recursive-include docs Makefile
 recursive-exclude meta *
 recursive-exclude recipe *
-recursive-exclude pymt_pynetlogo *.cpp
-recursive-exclude pymt_pynetlogo *.c
+recursive-exclude pymt_heatpynetlogo *.cpp
+recursive-exclude pymt_heatpynetlogo *.c

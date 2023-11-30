@@ -1,34 +1,34 @@
-==============
-pymt_pynetlogo
-==============
+==================
+pymt_heatpynetlogo
+==================
 
 
 .. image:: https://img.shields.io/badge/CSDMS-Basic%20Model%20Interface-green.svg
         :target: https://bmi.readthedocs.io/
         :alt: Basic Model Interface
 
-.. image:: https://img.shields.io/badge/recipe-pymt_pynetlogo-green.svg
-        :target: https://anaconda.org/conda-forge/pymt_pynetlogo
+.. image:: https://img.shields.io/badge/recipe-pymt_heatpynetlogo-green.svg
+        :target: https://anaconda.org/conda-forge/pymt_heatpynetlogo
 
 .. image:: https://readthedocs.org/projects/pymt-pynetlogo/badge/?version=latest
         :target: https://pymt-pynetlogo.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://github.com/pymt-lab/pymt_pynetlogo/actions/workflows/test.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_pynetlogo/actions/workflows/test.yml
+.. image:: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/test.yml/badge.svg
+        :target: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/test.yml
 
-.. image:: https://github.com/pymt-lab/pymt_pynetlogo/actions/workflows/flake8.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_pynetlogo/actions/workflows/flake8.yml
+.. image:: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/flake8.yml/badge.svg
+        :target: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/flake8.yml
 
-.. image:: https://github.com/pymt-lab/pymt_pynetlogo/actions/workflows/black.yml/badge.svg
-        :target: https://github.com/pymt-lab/pymt_pynetlogo/actions/workflows/black.yml
+.. image:: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/black.yml/badge.svg
+        :target: https://github.com/pymt-lab/pymt_heatpynetlogo/actions/workflows/black.yml
 
 
 PyMT plugin for bmi-example-pynetlogo
 
 
 * Free software: MIT License
-* Documentation: https://pymt-pynetlogo.readthedocs.io.
+* Documentation: https://pymt-heatpynetlogo.readthedocs.io.
 
 
 
@@ -69,14 +69,14 @@ It is possible to list all of the versions of `pymt` available on your platform 
 
   conda search pymt --channel conda-forge
 
--------------------------
-Installing pymt_pynetlogo
--------------------------
+-----------------------------
+Installing pymt_heatpynetlogo
+-----------------------------
 
 
 
-To install `pymt_pynetlogo`,
+To install `pymt_heatpynetlogo`,
 
 .. code::
 
-  conda install pymt_pynetlogo
+  conda install pymt_heatpynetlogo

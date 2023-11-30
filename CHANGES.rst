@@ -1,5 +1,5 @@
-Changelog for pymt_pynetlogo
-============================
+Changelog for pymt_heatpynetlogo
+================================
 
 0.2.0 (unreleased)
 -------------------

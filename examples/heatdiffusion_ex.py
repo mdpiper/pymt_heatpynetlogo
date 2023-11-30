@@ -1,7 +1,7 @@
 """An example of running the HeatDiffusion model through its babelized BMI."""
 import numpy as np
 
-from pymt_pynetlogo import HeatDiffusion
+from pymt_heatpynetlogo import HeatDiffusion
 
 CONFIG_FILE = "config.yaml"
 
