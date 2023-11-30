@@ -40,19 +40,23 @@ jobs:
           channels: conda-forge
           channel-priority: true
 
-      - name: Install requirements
-        run: |
-          conda install -c conda-forge pymt --file=requirements-build.txt --file=requirements-library.txt
-
       - name: Install bmi-example-pynetlogo dependency
         run: |
           pushd ./external/bmi-example-pynetlogo
           make install
           popd
 
+      - name: Install requirements
+        run: |
+          pip install --file=requirements-build.txt --file=requirements-library.txt
+
       - name: Build and install package
         run: |
           pip install -e .
+
+      - name: Install pymt
+        run: |
+          conda install -c conda-forge pymt
 
       - name: Test
         run: |
