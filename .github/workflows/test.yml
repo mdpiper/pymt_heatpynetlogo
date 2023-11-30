@@ -66,6 +66,6 @@ jobs:
       - name: Run examples
         working-directory: ${{ github.workspace }}/examples
         run: |
-          python heatc_ex.py
-          python pymt_heatc_ex.py
+          python heatdiffusion_ex.py
+          python pymt_heatdiffusion_ex.py
   
